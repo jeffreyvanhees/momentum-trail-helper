@@ -24,8 +24,7 @@
   },
   "homepage": "https://github.com/lepikhinb/momentum-trail#readme",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "engines": {
     "node": ">=10.0.0"
