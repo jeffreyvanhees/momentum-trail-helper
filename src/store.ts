@@ -2,7 +2,7 @@ import { RouterGlobal } from "./router"
 
 let routes: RouterGlobal
 let location: URL | undefined
-let absolute = true
+let absolute = false
 
 export default {
   setRoutes: (payload: RouterGlobal) => (routes = payload),

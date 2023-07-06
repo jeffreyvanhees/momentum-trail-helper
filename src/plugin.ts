@@ -16,7 +16,7 @@ export const trail = (app: App, options?: TrailPluginOptions) => {
     store.setLocation(options.routes!.url, options.url)
   }
 
-  if (options?.absolute) {
+  if (options?.absolute !== undefined) {
     store.setAbsolute(options.absolute)
   }
 }
